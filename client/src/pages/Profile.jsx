@@ -18,6 +18,7 @@ export default function Profiles() {
     };
     await axios(configuration)
       .then((result) => {
+        console.log(result)
         setDetails(result.data);
         console.log(details);
       })
