@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+qimport { useEffect } from "react";
 import { useState } from "react";
 import Comingsoon from "../components/comingsoon";
 import axios from "axios";
